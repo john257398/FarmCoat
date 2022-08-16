@@ -1,0 +1,2707 @@
+.pageOne {
+  html,
+  body {
+    width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .fixedDiv {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .divSearch {
+    width: 9%;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 6%;
+    box-sizing: border-box;
+    height: 50px;
+    padding-top: 12.5px;
+  }
+  .amber {
+    margin-left: 3%;
+  }
+  .listItem {
+    display: flex;
+    width: 40%;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 13%;
+  }
+  .theTotalIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 145px;
+    color: rgba(0, 0, 0, 0.863);
+  }
+  .divSearchChild {
+    position: absolute;
+    right: 12.5%;
+    width: 22%;
+    margin-left: -230%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(128, 128, 128, 0.438);
+    border-radius: 5px;
+  }
+  .inputSearch {
+    height: 38px;
+    flex-grow: 2;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 15px;
+  }
+  .searchButton {
+    width: 40px;
+    height: 42px;
+    border: none;
+    outline: none;
+    border-left: 2px solid rgba(128, 128, 128, 0.438);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 17px;
+  }
+  .search:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .mainSearchIcon {
+    font-weight: lighter;
+  }
+  .mainSearchIcon:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .userAlt2 {
+    display: none;
+  }
+  .userAlt:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .outlineShopping2 {
+    display: none;
+  }
+  .shoppingBag:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .shoppingListParent {
+    position: absolute;
+    width: 20%;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: -23%;
+    border-radius: 5px;
+    transition: max-height 1.5s;
+    list-style: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .shoppingList {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12%;
+  }
+  .shoppingList2 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .dogText {
+    margin-top: -6%;
+  }
+  .basicTraining {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .basicQty {
+    font-size: 12px;
+    margin-top: -5%;
+  }
+  .basicMoney {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .smallDog {
+    width: 80px;
+    height: 90px;
+  }
+  .smallRabbit {
+    width: 80px;
+    height: 90px;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .oneColor {
+    color: rgb(246, 171, 73);
+    font-weight: 500;
+  }
+  .timesIcon {
+    font-size: 17px;
+  }
+  .line {
+    color: rgba(230, 230, 230, 0.623);
+  }
+  .twohundredParent {
+    font-size: 17px;
+  }
+  .twohundred {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cartButton {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    outline: none;
+    border: 2px solid rgb(230, 230, 230);
+  }
+  .checkoutButton {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    outline: none;
+    border: 2px solid rgb(230, 230, 230);
+    margin-top: 6%;
+    margin-bottom: 12%;
+  }
+  .cartButton:hover {
+    background-color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .checkoutButton:hover {
+    background-color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .buyNow {
+    background-color: rgb(246, 171, 73);
+    height: 6vh;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+  }
+  .sliderDogs {
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    background-image: url(../imageFiles/slider1-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .popupParent {
+    display: none;
+  }
+  .insideImage {
+    line-height: 160%;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .keepPet {
+    font-size: 160%;
+  }
+  .vitamins {
+    font-size: 260%;
+    margin-top: -1%;
+    font-weight: 500;
+  }
+  .chewing {
+    font-size: 110%;
+  }
+  .shopNow {
+    outline: none;
+    border: none;
+    width: 25%;
+    height: 8vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 3%;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .shopNow:hover {
+    background-color: rgb(246, 171, 73);
+  }
+  .showHome {
+    cursor: pointer;
+  }
+  .div {
+    padding-left: 25px;
+    list-style: none;
+    font-size: 90%;
+    position: absolute;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    width: 15%;
+    z-index: 1;
+    line-height: 280%;
+    transition: max-height 0.7s;
+    overflow: hidden;
+  }
+  .showHome:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .homeLi1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .homeLi2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .homeLi3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .homeLi4:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .totalDiv {
+    transition: max-height 0.7s;
+    list-style: none;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    left: 10%;
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .divu1 {
+    z-index: 1;
+    margin-left: 3%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    font-size: 90%;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .showShop {
+    cursor: pointer;
+  }
+  .showShop:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop1:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop2:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop3:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop4:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop5:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop6:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop7:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop8:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop9:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop10:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop11:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop12:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop13:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .theLog:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .theReg:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop15:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop16:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop17:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop18:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .pointer1,
+  .pointer2,
+  .pointer3 {
+    cursor: pointer;
+  }
+  .u1,
+  .u2,
+  .u3 {
+    line-height: 230%;
+  }
+  .head1,
+  .head2,
+  .head3 {
+    font-weight: 800;
+  }
+  .pageDiv {
+    z-index: 1;
+    padding-left: 25px;
+    list-style: none;
+    font-size: 90%;
+    position: absolute;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    width: 15%;
+    line-height: 310%;
+    transition: max-height 0.7s;
+    overflow: hidden;
+  }
+  .showPage {
+    cursor: pointer;
+  }
+  .showPage:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .pageLi1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi4:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi5:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi6:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .showBlog {
+    cursor: pointer;
+  }
+  .blogDiv {
+    padding-left: 25px;
+    list-style: none;
+    font-size: 90%;
+    position: absolute;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    width: 15%;
+    line-height: 324%;
+    transition: max-height 0.7s;
+    overflow: hidden;
+  }
+  .showBlog:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .blogLi1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .blogLi2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .blogLi3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .blogLi4:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+
+  .blogLi5:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .about {
+    cursor: pointer;
+  }
+  .contact {
+    cursor: pointer;
+  }
+  .about:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .contact:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .megaMenu {
+    margin-left: 70%;
+    margin-top: -100%;
+    height: 40vh;
+  }
+  .freeDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+  }
+  .divOne {
+    background-color: rgb(244, 244, 244);
+    padding-top: 3.5%;
+    width: 31.67%;
+    height: 20vh;
+  }
+  .rectangle1 {
+    height: 25px;
+    width: 10%;
+    margin-left: 45%;
+  }
+  .freeCapital {
+    text-align: center;
+    margin-top: 8%;
+  }
+  .freeSmall {
+    margin-top: -2%;
+    font-size: 92%;
+    text-align: center;
+  }
+  .firstDogDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .firstDog {
+    cursor: pointer;
+    width: 48.75%;
+  }
+  .secondDog {
+    cursor: pointer;
+    width: 48.75%;
+  }
+  .bestsellerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 37%;
+    font-size: 160%;
+    font-weight: 800;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+  .best:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .sales:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .top:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .correctAos {
+    overflow-x: hidden;
+  }
+  .totalPet1 {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .smallDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .animalAlbum {
+    text-align: center;
+    font-size: 110%;
+  }
+  .iconDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon1,
+  .containIcon2,
+  .containIcon3,
+  .containIcon4,
+  .containIcon5 {
+    color: rgb(246, 171, 73);
+  }
+  .eighty {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 117%;
+  }
+  .eightyFive {
+    font-size: 98%;
+    margin-left: 2%;
+    color: rgba(210, 30, 30, 0.705);
+    text-decoration: line-through;
+  }
+  .iconDiv1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon6,
+  .containIcon7,
+  .containIcon8,
+  .containIcon9,
+  .containIcon10 {
+    color: rgb(246, 171, 73);
+  }
+  .smallDiv1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .youNeed {
+    text-align: center;
+    font-size: 110%;
+  }
+  .ninety {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 117%;
+    text-align: center;
+  }
+  .smallDiv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .foodCorner {
+    text-align: center;
+    font-size: 110%;
+  }
+  .iconDiv2 {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon11,
+  .containIcon12,
+  .containIcon13,
+  .containIcon14,
+  .containIcon15 {
+    color: rgb(246, 171, 73);
+  }
+  .oneFive {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 117%;
+    text-align: center;
+  }
+  .smallDiv3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .petLeave {
+    text-align: center;
+    font-size: 110%;
+  }
+  .iconDiv3 {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon16,
+  .containIcon17,
+  .containIcon18,
+  .containIcon19,
+  .containIcon20 {
+    color: rgb(246, 171, 73);
+  }
+  .fortySeven {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 117%;
+    text-align: center;
+  }
+  .totalPet2 {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .smallDiv4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .leaveHouse {
+    text-align: center;
+    font-size: 110%;
+  }
+  .iconDiv4 {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon21,
+  .containIcon22,
+  .containIcon23,
+  .containIcon24,
+  .containIcon25 {
+    color: rgb(246, 171, 73);
+  }
+  .fiftyEight {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 117%;
+    text-align: center;
+  }
+  .sixtyTwo {
+    font-size: 98%;
+    margin-left: 4%;
+    color: rgba(210, 30, 30, 0.705);
+    text-decoration: line-through;
+  }
+  .smallDiv5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .theTesting {
+    text-align: center;
+    font-size: 110%;
+  }
+  .iconDiv5 {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon26,
+  .containIcon27,
+  .containIcon28,
+  .containIcon29,
+  .containIcon30 {
+    color: rgb(246, 171, 73);
+  }
+  .seventyEight {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 117%;
+    text-align: center;
+  }
+  .smallDiv6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .dogTraining {
+    text-align: center;
+    font-size: 110%;
+  }
+  .iconDiv6 {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon31,
+  .containIcon32,
+  .containIcon33,
+  .containIcon34,
+  .containIcon35 {
+    color: rgb(246, 171, 73);
+  }
+  .fiftyFive {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 117%;
+    text-align: center;
+  }
+  .smallDiv7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5vh;
+  }
+  .forLife {
+    text-align: center;
+    font-size: 110%;
+  }
+  .iconDiv7 {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin: auto;
+    margin-top: -0.2%;
+  }
+  .containIcon36,
+  .containIcon37,
+  .containIcon38,
+  .containIcon39,
+  .containIcon40 {
+    color: rgb(246, 171, 73);
+  }
+  .seventyFive {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 117%;
+    text-align: center;
+  }
+  .eightyTwo {
+    font-size: 98%;
+    margin-left: 2%;
+    color: rgba(210, 30, 30, 0.705);
+    text-decoration: line-through;
+  }
+  .span {
+    margin-top: 10%;
+  }
+  .animalDiv {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 90%;
+    overflow-x: hidden;
+  }
+  .animal1,
+  .animal2,
+  .animal3 {
+    cursor: pointer;
+  }
+  .animal1Div {
+    overflow: hidden;
+  }
+  .animal1 {
+    transition: transform 0.4s ease;
+  }
+  .animal1Div:hover img {
+    transform: scale(1.1);
+  }
+  .animal2Div {
+    overflow: hidden;
+  }
+  .animal2 {
+    transition: transform 0.4s ease;
+  }
+  .animal2Div:hover img {
+    transform: scale(1.1);
+  }
+  .animal3Div {
+    overflow: hidden;
+  }
+  .animal3 {
+    transition: transform 0.4s ease;
+  }
+  .animal3Div:hover img {
+    transform: scale(1.1);
+  }
+  .allDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+  }
+  .deal {
+    margin-top: 4.5%;
+    text-align: center;
+    font-size: 220%;
+  }
+  .allAnimalDiv {
+    width: 51%;
+  }
+  .anAlbum {
+    margin-top: -0.9%;
+    font-size: 126%;
+    font-weight: 600;
+  }
+  .iconDiv8 {
+    margin-left: 0.7%;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+  }
+  .containIcon41,
+  .containIcon42,
+  .containIcon43,
+  .containIcon44,
+  .containIcon45 {
+    color: rgb(246, 171, 73);
+  }
+  .eightyDollar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 126%;
+  }
+  .spanDollar {
+    margin-left: 1.8%;
+    color: rgba(246, 171, 73, 0.795);
+    text-decoration: line-through;
+  }
+  .aboutDog {
+    margin-top: 5%;
+    font-size: 93%;
+  }
+  .allCount {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 55%;
+    margin-top: 7%;
+  }
+  .firstCount {
+    background-color: rgb(246, 171, 73);
+    width: 21%;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    height: 11vh;
+    line-height: 20%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+  }
+  .twoFive {
+    text-align: center;
+    font-weight: 500;
+  }
+  .line1 {
+    width: 30px;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 3%;
+  }
+  .days {
+    font-size: 80%;
+    font-weight: 500;
+    text-align: center;
+  }
+  .secondCount {
+    background-color: rgb(246, 171, 73);
+    width: 21%;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    line-height: 20%;
+    height: 11vh;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+  }
+  .zeroFour {
+    text-align: center;
+    font-weight: 500;
+  }
+  .line2 {
+    width: 30px;
+    border: 1px solid;
+    margin: auto;
+  }
+  .hours {
+    font-size: 80%;
+    font-weight: 500;
+    text-align: center;
+  }
+  .thirdCount {
+    background-color: rgb(246, 171, 73);
+    width: 21%;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    line-height: 20%;
+    height: 11vh;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+  }
+  .twoThree {
+    text-align: center;
+    font-weight: 500;
+  }
+  .line3 {
+    width: 30px;
+    border: 1px solid;
+    margin: auto;
+  }
+  .mins {
+    font-size: 80%;
+    font-weight: 500;
+    text-align: center;
+  }
+  .lastCount {
+    background-color: rgb(246, 171, 73);
+    width: 21%;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    line-height: 20%;
+    height: 11vh;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+  }
+  .fiveZero {
+    text-align: center;
+    font-weight: 500;
+  }
+  .line4 {
+    width: 30px;
+    border: 1px solid;
+    margin: auto;
+  }
+  .secs {
+    font-size: 80%;
+    font-weight: 500;
+    text-align: center;
+  }
+  .shopCount {
+    cursor: pointer;
+    margin-top: 6%;
+    font-weight: 800;
+    font-size: 85%;
+    color: rgba(255, 255, 255, 0.884);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 20%;
+    height: 45px;
+    background-color: rgb(246, 171, 73);
+    transition: background-color 0.4s;
+  }
+  .shopCount:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  .from {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 220%;
+    color: rgba(0, 0, 0, 0.863);
+  }
+  .gradientDiv {
+    margin-top: 3.7%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow-x: hidden;
+  }
+  .relative1 {
+    position: relative;
+  }
+  .gradientImage1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(31, 7, 58, 0.23) 40%,
+      rgba(31, 7, 58, 0.65) 60%
+    );
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .gradientImage1:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .relative2 {
+    position: relative;
+  }
+  .gradientImage2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(31, 7, 58, 0.23) 40%,
+      rgba(31, 7, 58, 0.65) 60%
+    );
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .gradientImage2:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .relative3 {
+    position: relative;
+  }
+  .gradientImage3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(31, 7, 58, 0.23) 40%,
+      rgba(31, 7, 58, 0.65) 60%
+    );
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .gradientImage3:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .admin1 {
+    cursor: pointer;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.863);
+  }
+  .h1 {
+    color: rgba(0, 0, 0, 0.863);
+    cursor: pointer;
+  }
+  .takeCare {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .read1 {
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7%;
+    font-size: 90%;
+  }
+  .read1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .admin1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .h1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .admin2 {
+    cursor: pointer;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.863);
+  }
+  .h2 {
+    color: rgba(0, 0, 0, 0.863);
+    cursor: pointer;
+  }
+  .findFish {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .read2 {
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7%;
+    font-size: 90%;
+  }
+  .read2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .admin2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .h2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .gradient2Div {
+    margin-left: 3%;
+  }
+  .admin3 {
+    cursor: pointer;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.863);
+  }
+  .h3 {
+    color: rgba(0, 0, 0, 0.863);
+    cursor: pointer;
+  }
+  .tipDog {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .read3 {
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7%;
+    font-size: 90%;
+  }
+  .read3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .admin3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .h3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .gradient3Div {
+    margin-left: 3%;
+  }
+  .footer {
+    background-color: rgb(244, 244, 244);
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 5%;
+    height: 44vh;
+  }
+  .aboutIcon {
+    margin-left: 5%;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .iconAbout {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .iconWe {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    font-size: 97%;
+  }
+  .faIcons {
+    cursor: pointer;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 55%;
+  }
+  .youOne {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .useful {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .help {
+    line-height: 15px;
+  }
+  .help1,
+  .help2,
+  .help3,
+  .help4 {
+    font-size: 97%;
+  }
+  .help1:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help2:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help3:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help4:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help1 {
+    margin-top: 35px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .help2 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .help3 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .help4 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .youTwo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .unuseful {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .attack {
+    line-height: 15px;
+  }
+  .attack1,
+  .attack2,
+  .attack3,
+  .attack4 {
+    font-size: 97%;
+  }
+  .attack1:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack2:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack3:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack4:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack1 {
+    margin-top: 35px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .attack2 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .attack3 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .attack4 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .newsletter {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .news {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .subscribe {
+    margin-top: 35px;
+  }
+  .allEmail {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    height: 43px;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+  }
+  .email {
+    padding-left: 15px;
+    border-radius: 30px;
+    flex-grow: 2;
+    border: none;
+    outline: none;
+  }
+  .button1 {
+    border-radius: 30px;
+    height: 80%;
+    margin-right: 5px;
+    margin-top: 4px;
+    font-size: 100%;
+    width: 30%;
+    background-color: rgb(246, 171, 73);
+    color: white;
+    font-weight: 900;
+    border: none;
+    transition: background-color 0.5s;
+  }
+  .button1:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .copyrightDiv {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .pCopyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 97%;
+    margin-left: 5%;
+  }
+  .amb {
+    font-weight: 800;
+  }
+  .theme1,
+  .theme2 {
+    cursor: pointer;
+    transition: color 0.4s;
+  }
+  .theme1:hover {
+    color: rgb(246, 171, 73);
+  }
+  .theme2:hover {
+    color: rgb(246, 171, 73);
+  }
+  .heart {
+    color: rgba(255, 0, 0, 0.678);
+  }
+  .payment {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 32%;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+  .myCustomers {
+    background-color: rgb(244, 244, 244);
+    margin-top: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  .customer1 {
+    font-size: 110%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel .slide img {
+    max-height: 100%;
+    width: auto;
+  }
+
+  .cristal {
+    width: 8vh;
+    margin-top: 3.5%;
+  }
+  .underCristal1,
+  .underCristal2 {
+    text-align: center;
+    font-size: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .underCristal1 {
+    margin-top: 2%;
+  }
+  .underCristal2 {
+    margin-top: -1%;
+  }
+  .myCustomers1 {
+    background-color: rgb(244, 244, 244);
+    margin-top: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  .customer2 {
+    font-size: 110%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .Jonathan {
+    width: 8vh;
+    margin-top: 3.5%;
+  }
+  .underCristal3,
+  .underCristal4 {
+    text-align: center;
+    font-size: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .underCristal3 {
+    margin-top: 2%;
+  }
+  .underCristal4 {
+    margin-top: -1%;
+  }
+  .circleDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .circle1 {
+    background-color: black;
+    width: 11px;
+    height: 11px;
+    border-radius: 30px;
+  }
+  .circle2 {
+    margin-left: 8px;
+    background-color: black;
+    width: 11px;
+    height: 11px;
+    border-radius: 30px;
+  }
+  @media screen and (min-width: 270px) and (max-width: 600px) {
+    .listItem {
+      display: none;
+    }
+    .fixedDiv {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .mainSearchIcon {
+      display: none;
+    }
+    .userAlt2 {
+      display: inline-block;
+    }
+    .userAlt {
+      display: none;
+    }
+    .outlineShopping2 {
+      display: inline-block;
+    }
+    .menuIcon {
+      display: inline-block;
+    }
+    .outlineShopping {
+      display: none;
+    }
+    .divSearch {
+      margin-right: 4%;
+      float: none;
+      width: 30%;
+    }
+    .freeDiv {
+      flex-direction: column;
+      height: 75vh;
+    }
+    .popupTimes {
+      background-color: white;
+      position: absolute;
+      left: 19%;
+      height: 30px;
+      width: 23px;
+      font-size: 20px;
+      padding-top: 1.5%;
+      border-right: 1px solid black;
+      text-align: center;
+    }
+    .popupParent {
+      display: unset;
+      position: fixed;
+      background: #00000050;
+      height: 100vh;
+      overflow: hidden;
+      transition: width 0.2s;
+      z-index: 2;
+    }
+    .popupChild {
+      background: white;
+      height: 100vh;
+      width: 65%;
+      position: absolute;
+      right: 0%;
+      padding: 5%;
+    }
+    .inputParent {
+      border: 1px solid black;
+      height: 5vh;
+      background-color: rgb(230, 230, 230);
+      padding-left: 5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .popupInput {
+      border: none;
+      outline: none;
+      flex-grow: 10;
+      background-color: transparent;
+      width: 80%;
+    }
+    .popupSearch {
+      float: right;
+      font-size: 20px;
+      margin-right: 2%;
+    }
+    .homeParent {
+      margin-top: 7%;
+    }
+    .homeTextDiv {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionHome {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .accordionShop {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon2 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .shopText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionProduct {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon3 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .productText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionPage {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon4 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .pageText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionBlog {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon5 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .blogText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .aboutParent {
+      margin-top: 5%;
+    }
+    .contactParent {
+      margin-top: 5%;
+    }
+    .languageParent {
+      margin-top: 13%;
+      width: 62%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .language {
+      font-weight: 500;
+    }
+    .languageIcon {
+      margin-top: 25%;
+    }
+    .englishContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .englishContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .moneyParent {
+      margin-top: 2%;
+      width: 52%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .money {
+      font-weight: 500;
+    }
+    .moneyIcon {
+      margin-top: 25%;
+    }
+    .moneyContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .moneyContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .callParent {
+      margin-top: 30%;
+    }
+    .callIcon {
+      font-size: 20px;
+    }
+    .mailIcon {
+      font-size: 20px;
+    }
+    .clockIcon {
+      font-size: 20px;
+    }
+    .divOne {
+      width: 100%;
+    }
+    .sliderDogs {
+      width: 100%;
+      height: 45vh;
+    }
+    .insideImage {
+      line-height: 110%;
+    }
+    .keepPet {
+      font-size: 120%;
+    }
+    .vitamins {
+      font-size: 150%;
+      margin-top: -1%;
+    }
+    .chewing {
+      font-size: 100%;
+      width: 60%;
+    }
+    .shopNow {
+      width: 28%;
+      height: 5vh;
+    }
+    .bestsellerDiv {
+      flex-wrap: wrap;
+      font-size: 120%;
+      width: 60%;
+      height: 10vh;
+      line-height: 20%;
+      margin-top: 13%;
+    }
+    .top {
+      text-align: center;
+      margin: auto;
+    }
+    .totalPet1 {
+      margin-top: 13%;
+      flex-direction: column;
+    }
+    .totalPet2 {
+      flex-direction: column;
+    }
+    .rabbit1 {
+      width: 100%;
+    }
+    .smallDiv {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv {
+      margin-top: -1%;
+    }
+    .totalRabbit2 {
+      margin-top: 8%;
+    }
+    .dog {
+      width: 100%;
+    }
+    .smallDiv1 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv1 {
+      margin-top: -1%;
+    }
+    .totalRabbit3 {
+      margin-top: 8%;
+    }
+    .rabbit2 {
+      width: 100%;
+    }
+    .smallDiv2 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv2 {
+      margin-top: -1%;
+    }
+    .totalRabbit4 {
+      margin-top: 8%;
+    }
+    .parrot {
+      width: 100%;
+    }
+    .smallDiv3 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv3 {
+      margin-top: -1%;
+    }
+    .totalRabbit5 {
+      margin-top: 8%;
+    }
+    .fish1 {
+      width: 100%;
+    }
+    .smallDiv4 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv4 {
+      margin-top: -1%;
+    }
+    .totalRabbit6 {
+      margin-top: 8%;
+    }
+    .fish2 {
+      width: 100%;
+    }
+    .smallDiv5 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv5 {
+      margin-top: -1%;
+    }
+    .totalRabbit7 {
+      margin-top: 8%;
+    }
+    .dog2 {
+      width: 100%;
+    }
+    .smallDiv6 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv6 {
+      margin-top: -1%;
+    }
+    .totalRabbit8 {
+      margin-top: 8%;
+    }
+    .rabbit3 {
+      width: 100%;
+    }
+    .smallDiv7 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv7 {
+      margin-top: -1%;
+    }
+    .firstDogDiv {
+      flex-direction: column;
+      margin-top: 13%;
+    }
+    .firstDog {
+      width: 100%;
+    }
+    .secondDog {
+      width: 100%;
+      margin-top: 8%;
+    }
+    .deal {
+      font-size: 150%;
+      margin-top: 13%;
+    }
+    .allDiv {
+      flex-direction: column;
+      margin-right: 5%;
+      margin-top: 8%;
+    }
+    .bigRabbit {
+      width: 100%;
+    }
+    .allAnimalDiv {
+      width: 100%;
+    }
+    .animalAlbumChild {
+      margin-top: 10%;
+      line-height: 1vh;
+    }
+    .allCount {
+      width: 70%;
+    }
+    .shopCount {
+      width: 30%;
+      height: 33px;
+      font-size: 80%;
+    }
+    .animalDiv {
+      flex-direction: column;
+      margin-top: 13%;
+      height: 125vh;
+    }
+    .from {
+      margin-top: 10%;
+    }
+    .gradientDiv {
+      flex-direction: column;
+      width: 90%;
+    }
+    .gradient1Div {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .gradient2Div {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .gradient3Div {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .gradient1 {
+      width: 100%;
+    }
+    .gradient2 {
+      width: 100%;
+      margin-top: 8%;
+    }
+    .gradient3 {
+      width: 100%;
+      margin-top: 8%;
+    }
+    .footer {
+      flex-direction: column;
+      height: max-content;
+      padding-left: 5%;
+      padding-bottom: 10%;
+      padding-top: 10%;
+    }
+    .aboutIcon {
+      margin-left: 0%;
+      margin-top: 0%;
+    }
+    .youOne {
+      margin-top: 10%;
+    }
+    .youTwo {
+      margin-top: 8%;
+    }
+    .copyrightDiv {
+      flex-direction: column;
+      padding-left: 5%;
+    }
+    .payment {
+      margin-left: 0%;
+    }
+    .pCopyright {
+      margin-left: 0%;
+    }
+  }
+
+  @media screen and (min-width: 390px) and (max-width: 1000px) and (min-height: 800px) and (max-height: 1000px) {
+    .insideImage {
+      margin-top: 17%;
+    }
+    .vitamins {
+      font-size: 180%;
+    }
+    .chewing {
+      width: 70%;
+    }
+    .freeDiv {
+      height: 67vh;
+    }
+    .divOne {
+      padding-top: 10%;
+      box-sizing: border-box;
+    }
+    .totalPet1 {
+      margin-top: 7%;
+    }
+    .aboutDog {
+      font-size: 110%;
+    }
+    .firstCount,
+    .secondCount,
+    .thirdCount,
+    .lastCount {
+      height: 80px;
+      font-size: 18px;
+    }
+    .shopCount {
+      font-size: 13px;
+    }
+    .animalDiv {
+      height: 95vh;
+    }
+  }
+  @media screen and (min-width: 360px) and (height: 740px) {
+    .insideImage {
+      margin-top: 17%;
+    }
+    .vitamins {
+      font-size: 180%;
+    }
+    .chewing {
+      width: 70%;
+    }
+    .freeDiv {
+      height: 67vh;
+    }
+    .divOne {
+      padding-top: 10%;
+      box-sizing: border-box;
+    }
+    .totalPet1 {
+      margin-top: 7%;
+    }
+    .aboutDog {
+      font-size: 110%;
+    }
+    .firstCount,
+    .secondCount,
+    .thirdCount,
+    .lastCount {
+      height: 80px;
+      font-size: 18px;
+    }
+    .shopCount {
+      font-size: 13px;
+    }
+    .animalDiv {
+      height: 115vh;
+    }
+  }
+  @media screen and (min-width: 700px) and (max-width: 1000px) and (min-height: 1001px) and (max-height: 1400px) {
+    .buyNow {
+      font-size: 120%;
+    }
+    .listItem {
+      display: none;
+    }
+    .fixedDiv {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .mainSearchIcon {
+      display: none;
+    }
+    .userAlt2 {
+      display: inline-block;
+    }
+    .userAlt {
+      display: none;
+    }
+    .outlineShopping2 {
+      display: inline-block;
+    }
+    .menuIcon {
+      display: inline-block;
+    }
+    .outlineShopping {
+      display: none;
+    }
+    .divSearch {
+      margin-right: 0%;
+      float: none;
+      width: 30%;
+    }
+    .amber {
+      margin-left: 5%;
+    }
+    .popupTimes {
+      background-color: white;
+      position: absolute;
+      left: 61%;
+      height: 30px;
+      width: 30px;
+      font-size: 20px;
+      padding-top: 1%;
+      border-right: 1px solid black;
+      text-align: center;
+    }
+    .popupParent {
+      display: unset;
+      position: fixed;
+      background: #00000050;
+      height: 100vh;
+      overflow: hidden;
+      transition: width 0.2s;
+      z-index: 2;
+    }
+    .popupChild {
+      background: white;
+      height: 100vh;
+      width: 30%;
+      position: absolute;
+      right: 0%;
+      padding: 3%;
+    }
+    .inputParent {
+      border: 1px solid black;
+      height: 3.5vh;
+      background-color: rgb(230, 230, 230);
+      padding-left: 5%;
+      font-size: 140%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .popupInput {
+      border: none;
+      outline: none;
+      flex-grow: 10;
+      background-color: transparent;
+      width: 80%;
+    }
+    .popupSearch {
+      float: right;
+      font-size: 20px;
+      margin-right: 2%;
+    }
+    .homeParent {
+      margin-top: 7%;
+      font-size: 110%;
+    }
+    .homeTextDiv {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionHome {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .shopParent {
+      font-size: 110%;
+    }
+    .accordionShop {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon2 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .shopParent {
+      font-size: 110%;
+    }
+    .shopText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .productParent {
+      font-size: 110%;
+    }
+    .accordionProduct {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon3 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .productText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .pageParent {
+      font-size: 110%;
+    }
+    .accordionPage {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon4 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .pageText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .blogParent {
+      font-size: 110%;
+    }
+    .accordionBlog {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon5 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .blogText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .aboutParent {
+      margin-top: 5%;
+      font-size: 110%;
+    }
+    .contactParent {
+      margin-top: 5%;
+      font-size: 110%;
+    }
+    .languageParent {
+      margin-top: 20%;
+      width: 62%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .language {
+      font-weight: 500;
+    }
+    .languageIcon {
+      margin-top: 25%;
+    }
+    .englishContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .englishContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .moneyParent {
+      margin-top: 2%;
+      width: 52%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .money {
+      font-weight: 500;
+    }
+    .moneyIcon {
+      margin-top: 25%;
+    }
+    .moneyContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .moneyContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .callParent {
+      margin-top: 120%;
+    }
+    .callIcon {
+      font-size: 20px;
+    }
+    .mailIcon {
+      font-size: 20px;
+    }
+    .clockIcon {
+      font-size: 20px;
+    }
+    .sliderDogs {
+      width: 100%;
+      height: 45vh;
+    }
+    .insideImage {
+      line-height: 110%;
+      margin-top: 15%;
+    }
+    .vitamins {
+      margin-top: -1%;
+    }
+    .shopNow {
+      width: 25%;
+      height: 4vh;
+      font-size: 100%;
+    }
+    .freeDiv {
+      margin-top: 10%;
+    }
+    .divOne {
+      height: 15vh;
+    }
+    .rectangle1 {
+      margin-top: 10%;
+    }
+    .bestsellerDiv {
+      width: 60%;
+      margin-top: 8%;
+    }
+    .totalPet1 {
+      margin-top: 3%;
+      flex-wrap: wrap;
+    }
+    .totalPet2 {
+      flex-wrap: wrap;
+    }
+    .totalRabbit1 {
+      width: 47.5%;
+    }
+    .rabbit1 {
+      width: 100%;
+    }
+    .smallDiv {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv {
+      margin-top: -1%;
+    }
+    .totalRabbit2 {
+      width: 47.5%;
+    }
+    .dog {
+      width: 100%;
+    }
+    .smallDiv1 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv1 {
+      margin-top: -1%;
+    }
+    .totalRabbit3 {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .rabbit2 {
+      width: 100%;
+    }
+    .smallDiv2 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv2 {
+      margin-top: -1%;
+    }
+    .totalRabbit4 {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .parrot {
+      width: 100%;
+    }
+    .smallDiv3 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv3 {
+      margin-top: -1%;
+    }
+    .totalRabbit5 {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .fish1 {
+      width: 100%;
+    }
+    .smallDiv4 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv4 {
+      margin-top: -1%;
+    }
+    .totalRabbit6 {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .fish2 {
+      width: 100%;
+    }
+    .smallDiv5 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv5 {
+      margin-top: -1%;
+    }
+    .totalRabbit7 {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .dog2 {
+      width: 100%;
+    }
+    .smallDiv6 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv6 {
+      margin-top: -1%;
+    }
+    .totalRabbit8 {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .rabbit3 {
+      width: 100%;
+    }
+    .smallDiv7 {
+      line-height: 1vh;
+      margin-top: 4%;
+    }
+    .iconDiv7 {
+      margin-top: -1%;
+    }
+    .firstDogDiv {
+      margin-top: 10%;
+    }
+    .deal {
+      margin-top: 13%;
+    }
+    .allDiv {
+      margin-top: 8%;
+    }
+    .bigRabbitDiv {
+      width: 47.5%;
+    }
+    .bigRabbit {
+      width: 100%;
+    }
+    .allAnimalDiv {
+      width: 47.5%;
+    }
+    .allCount {
+      width: 100%;
+      height: 7vh;
+    }
+    .firstCount,
+    .secondCount,
+    .thirdCount,
+    .lastCount {
+      height: max-content;
+    }
+    .shopCount {
+      width: 40%;
+      height: 40px;
+      font-size: 100%;
+      padding-top: 2.5%;
+    }
+    .animalDiv {
+      margin-top: 10%;
+      flex-wrap: wrap;
+    }
+    .animal1Div,
+    .animal2Div,
+    .animal3Div {
+      width: 47.5%;
+    }
+    .animal3Div {
+      margin-top: 5%;
+    }
+    .from {
+      margin-top: 10%;
+    }
+    .gradientDiv {
+      flex-wrap: wrap;
+      width: 90%;
+    }
+    .gradient1Div {
+      width: 47.5%;
+      margin-left: 0%;
+    }
+    .gradient2Div {
+      width: 47.5%;
+      margin-left: 0%;
+    }
+    .gradient3Div {
+      width: 47.5%;
+      margin-left: 0%;
+    }
+    .gradient1 {
+      width: 100%;
+    }
+    .gradient2 {
+      width: 100%;
+    }
+    .gradient3 {
+      width: 100%;
+      margin-top: 8%;
+    }
+    .footer {
+      flex-wrap: wrap;
+      height: max-content;
+      padding-left: 5%;
+      padding-bottom: 10%;
+      padding-top: 10%;
+    }
+    .aboutIcon {
+      margin-left: 0%;
+      margin-top: 0%;
+      width: 47.5%;
+    }
+    .youOne {
+      margin-top: 0%;
+      width: 47.5%;
+      margin-right: 5%;
+    }
+    .youTwo {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .newsletter {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+  }
+  @media screen and (width: 540px) and (height: 720px) {
+    .popupTimes {
+      left: 21%;
+    }
+    .bestsellerDiv {
+      flex-wrap: unset;
+      font-size: 130%;
+      width: 75%;
+      height: fit-content;
+      line-height: 0%;
+      margin-top: 13%;
+    }
+    .top {
+      text-align: unset;
+      margin: unset;
+    }
+    .totalPet1 {
+      margin-top: 5%;
+    }
+    .animalDiv {
+      height: 150vh;
+    }
+    .animal1,
+    .animal2,
+    .animal3 {
+      width: 100%;
+    }
+  }
+  @media screen and (width: 280px) {
+    .amber {
+      height: 50px;
+      width: 150px;
+    }
+    .bestsellerDiv {
+      flex-direction: column;
+    }
+    .shopNow {
+      font-size: 60%;
+    }
+    .bestsellerDiv {
+      flex-wrap: unset;
+      font-size: 120%;
+      width: 60%;
+      height: fit-content;
+      line-height: 0vh;
+      margin-top: 13%;
+      text-align: center;
+    }
+    .top {
+      text-align: unset;
+      margin: unset;
+    }
+    .allCount {
+      width: 90%;
+    }
+    .shopCount {
+      width: 40%;
+      padding-top: 3%;
+    }
+  }
+  @media screen and (width: 412px) {
+    .popupTimes {
+      left: 20%;
+    }
+    .allCount {
+      height: fit-content;
+    }
+    .firstCount,
+    .secondCount,
+    .thirdCount,
+    .lastCount {
+      height: 8vh;
+    }
+    .animalDiv {
+      height: fit-content;
+    }
+  }
+  @media screen and (width: 1024px) {
+    .shopCount {
+      font-size: 12px;
+      width: 30%;
+    }
+  }
+}

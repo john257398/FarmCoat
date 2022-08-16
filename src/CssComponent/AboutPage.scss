@@ -1,0 +1,1755 @@
+.pageAbout {
+  html,
+  body {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .fixedDiv {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .divSearch {
+    width: 9%;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 6%;
+    box-sizing: border-box;
+    height: 50px;
+    padding-top: 12.5px;
+  }
+  .amber {
+    margin-left: 3%;
+    height: fit-content;
+  }
+  .listItem {
+    display: flex;
+    width: 40%;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 13%;
+  }
+  .buyNow {
+    background-color: rgb(246, 171, 73);
+    height: 6vh;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+  }
+  .showHome {
+    cursor: pointer;
+  }
+  .div {
+    padding-left: 25px;
+    list-style: none;
+    font-size: 90%;
+    position: absolute;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    width: 15%;
+    line-height: 280%;
+    transition: max-height 0.5s;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .showHome:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .homeLi1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .homeLi2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .homeLi3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .homeLi4:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .showShop {
+    cursor: pointer;
+  }
+  .showShop:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop1:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop2:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop3:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop4:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop5:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop6:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop7:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop8:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop9:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop10:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop11:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop12:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop13:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .theLog:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .theReg:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop15:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop16:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop17:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .shop18:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .totalDiv {
+    transition: max-height 0.5s;
+    list-style: none;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    left: 10%;
+    width: 80%;
+    overflow: hidden;
+  }
+  .megaMenu {
+    margin-left: 70%;
+    margin-top: -100%;
+    height: 40vh;
+  }
+  .divu1 {
+    z-index: 1;
+    margin-left: 3%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    font-size: 90%;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .pointer1,
+  .pointer2,
+  .pointer3 {
+    cursor: pointer;
+  }
+  .u1,
+  .u2,
+  .u3 {
+    line-height: 230%;
+  }
+  .head1,
+  .head2,
+  .head3 {
+    font-weight: 800;
+  }
+  .pageDiv {
+    z-index: 1;
+    padding-left: 25px;
+    list-style: none;
+    font-size: 90%;
+    position: absolute;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    width: 15%;
+    line-height: 310%;
+    transition: max-height 0.5s;
+    overflow: hidden;
+  }
+  .showPage {
+    cursor: pointer;
+  }
+  .showPage:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .pageLi1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi4:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi5:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .pageLi6:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .showBlog {
+    cursor: pointer;
+  }
+  .blogDiv {
+    z-index: 1;
+    padding-left: 25px;
+    list-style: none;
+    font-size: 90%;
+    position: absolute;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    width: 15%;
+    line-height: 324%;
+    transition: max-height 0.5s;
+    overflow: hidden;
+  }
+  .showBlog:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .blogLi1:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .blogLi2:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .blogLi3:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .blogLi4:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .blogLi5:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+    cursor: pointer;
+  }
+  .about {
+    cursor: pointer;
+  }
+  .contact {
+    cursor: pointer;
+  }
+  .about:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .contact:hover {
+    transition-duration: 0.4s;
+    color: rgb(246, 171, 73);
+  }
+  .aboutUs {
+    margin-top: 15px;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    padding-top: 14px;
+  }
+  .aboutText {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .homeText {
+    margin-top: -25px;
+  }
+  .seventyDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .moreAbout {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .doubleRight,
+  .doubleRight2,
+  .doubleRight3 {
+    font-size: 13px;
+  }
+  .contactButton {
+    background-color: rgb(246, 171, 73);
+    height: 7vh;
+    width: 22%;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    margin-top: 8%;
+    text-align: center;
+    padding-bottom: 0.5%;
+  }
+  .contactButton:hover {
+    cursor: pointer;
+    background-color: black;
+    transition-duration: 0.3s;
+  }
+  .popupParent {
+    display: none;
+  }
+  .theTotalIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 145px;
+    color: rgba(0, 0, 0, 0.863);
+  }
+  .divSearchChild {
+    position: absolute;
+    right: 12.5%;
+    width: 22%;
+    margin-left: -230%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(128, 128, 128, 0.438);
+    border-radius: 5px;
+  }
+  .inputSearch {
+    height: 38px;
+    flex-grow: 2;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 15px;
+  }
+  .searchButton {
+    width: 40px;
+    height: 42px;
+    border: none;
+    outline: none;
+    border-left: 2px solid rgba(128, 128, 128, 0.438);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 17px;
+  }
+  .search:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .mainSearchIcon {
+    font-weight: lighter;
+  }
+  .mainSearchIcon:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .userAlt2 {
+    display: none;
+  }
+  .userAlt:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .outlineShopping2 {
+    display: none;
+  }
+  .shoppingBag:hover {
+    color: rgb(246, 171, 73);
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .shoppingListParent {
+    position: absolute;
+    top: 19%;
+    width: 20%;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: -23%;
+    border-radius: 5px;
+    transition: max-height 0.5s;
+    list-style: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .shoppingList {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12%;
+  }
+  .shoppingList2 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .dogText {
+    margin-top: -6%;
+  }
+  .basicTraining {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .basicQty {
+    font-size: 12px;
+    margin-top: -5%;
+  }
+  .basicMoney {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .smallDog {
+    width: 80px;
+    height: 90px;
+  }
+  .smallRabbit {
+    width: 80px;
+    height: 90px;
+  }
+  .menuIcon {
+    display: none;
+  }
+  .oneColor {
+    color: rgb(246, 171, 73);
+    font-weight: 500;
+  }
+  .timesIcon {
+    font-size: 17px;
+  }
+  .line {
+    color: rgba(230, 230, 230, 0.623);
+  }
+  .twohundredParent {
+    font-size: 17px;
+  }
+  .twohundred {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cartButton {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    outline: none;
+    border: 2px solid rgb(230, 230, 230);
+  }
+  .checkoutButton {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 13px;
+    outline: none;
+    border: 2px solid rgb(230, 230, 230);
+    margin-top: 6%;
+    margin-bottom: 12%;
+  }
+  .cartButton:hover {
+    background-color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .checkoutButton:hover {
+    background-color: rgb(246, 171, 73);
+    transition-duration: 0.3s;
+  }
+  .beautifulParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    overflow-x: hidden;
+  }
+  .crystalParent,
+  .jemsParent,
+  .pretyParent {
+    height: fit-content;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2),
+      2px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+  .crystalParent {
+    position: relative;
+  }
+  .allIconParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin-left: 30%;
+  }
+  .facebookfParent,
+  .whatsappParent,
+  .twitterParent,
+  .instagramParent {
+    font-size: 13px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .facebookfParent,
+  .whatsappParent,
+  .twitterParent,
+  .instagramParent {
+    margin-top: -60%;
+    opacity: 0;
+  }
+  .crystalParent:hover {
+    cursor: pointer;
+  }
+  .crystalParent:hover .facebookfParent {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  .crystalParent:hover .whatsappParent {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    cursor: pointer;
+  }
+  .crystalParent:hover .twitterParent {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+  }
+  .crystalParent:hover .instagramParent {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    cursor: pointer;
+  }
+  .jemsParent {
+    position: relative;
+  }
+  .allIconParent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin-left: 30%;
+  }
+  .facebookfParent2,
+  .whatsappParent2,
+  .twitterParent2,
+  .instagramParent2 {
+    font-size: 13px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .facebookfParent2,
+  .whatsappParent2,
+  .twitterParent2,
+  .instagramParent2 {
+    margin-top: -60%;
+    opacity: 0;
+  }
+  .jemsParent:hover {
+    cursor: pointer;
+  }
+  .jemsParent:hover .facebookfParent2 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  .jemsParent:hover .whatsappParent2 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    cursor: pointer;
+  }
+  .jemsParent:hover .twitterParent2 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+  }
+  .jemsParent:hover .instagramParent2 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    cursor: pointer;
+  }
+  .pretyParent {
+    position: relative;
+  }
+  .allIconParent3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin-left: 30%;
+  }
+  .facebookfParent3,
+  .whatsappParent3,
+  .twitterParent3,
+  .instagramParent3 {
+    font-size: 13px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .facebookfParent3,
+  .whatsappParent3,
+  .twitterParent3,
+  .instagramParent3 {
+    margin-top: -60%;
+    opacity: 0;
+  }
+  .pretyParent:hover {
+    cursor: pointer;
+  }
+  .pretyParent:hover .facebookfParent3 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  .pretyParent:hover .whatsappParent3 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    cursor: pointer;
+  }
+  .pretyParent:hover .twitterParent3 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+  }
+  .pretyParent:hover .instagramParent3 {
+    margin-top: -100%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+    cursor: pointer;
+  }
+  .facebookfParent:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .facebookfParent2:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .facebookfParent3:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .whatsappParent:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .whatsappParent2:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .whatsappParent3:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .twitterParent:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .twitterParent2:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .twitterParent3:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .instagramParent:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .instagramParent2:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .instagramParent3:hover {
+    background-color: rgb(246, 171, 73);
+    color: white;
+    transition-delay: 0s;
+  }
+  .ceo {
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .ceo2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer {
+    background-color: rgb(244, 244, 244);
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 5%;
+    height: 44vh;
+  }
+  .aboutIcon {
+    margin-left: 5%;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .iconAbout {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .iconWe {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    font-size: 97%;
+  }
+  .faIcons {
+    cursor: pointer;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 55%;
+  }
+  .youOne {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .useful {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .help {
+    line-height: 15px;
+  }
+  .help1,
+  .help2,
+  .help3,
+  .help4 {
+    font-size: 97%;
+  }
+  .help1:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help2:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help3:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help4:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .help1 {
+    margin-top: 35px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .help2 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .help3 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .help4 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .youTwo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .unuseful {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .attack {
+    line-height: 15px;
+  }
+  .attack1,
+  .attack2,
+  .attack3,
+  .attack4 {
+    font-size: 97%;
+  }
+  .attack1:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack2:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack3:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack4:hover {
+    color: rgb(246, 171, 73);
+    transform: translateX(5px);
+  }
+  .attack1 {
+    margin-top: 35px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .attack2 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .attack3 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .attack4 {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .newsletter {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .news {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .subscribe {
+    margin-top: 35px;
+  }
+  .allEmail {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    height: 43px;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+  }
+  .email {
+    padding-left: 15px;
+    border-radius: 30px;
+    flex-grow: 2;
+    border: none;
+    outline: none;
+  }
+  .button1 {
+    border-radius: 30px;
+    height: 80%;
+    margin-right: 5px;
+    margin-top: 4px;
+    font-size: 100%;
+    width: 30%;
+    background-color: rgb(246, 171, 73);
+    color: white;
+    font-weight: 900;
+    border: none;
+    transition: background-color 0.5s;
+  }
+  .button1:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+  .copyrightDiv {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .pCopyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 97%;
+    margin-left: 5%;
+  }
+  .amb {
+    font-weight: 800;
+  }
+  .theme1,
+  .theme2 {
+    cursor: pointer;
+    transition: color 0.4s;
+  }
+  .theme1:hover {
+    color: rgb(246, 171, 73);
+  }
+  .theme2:hover {
+    color: rgb(246, 171, 73);
+  }
+  .heart {
+    color: rgba(255, 0, 0, 0.678);
+  }
+  .payment {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 32%;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+  .myCustomers {
+    background-color: rgb(244, 244, 244);
+    margin-top: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  .customer1 {
+    font-size: 110%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel .slide img {
+    max-height: 100%;
+    width: auto;
+  }
+
+  .cristal {
+    width: 8vh;
+    margin-top: 3.5%;
+  }
+  .underCristal1,
+  .underCristal2 {
+    text-align: center;
+    font-size: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .underCristal1 {
+    margin-top: 2%;
+  }
+  .underCristal2 {
+    margin-top: -1%;
+  }
+  .myCustomers1 {
+    background-color: rgb(244, 244, 244);
+    margin-top: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  .customer2 {
+    font-size: 110%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .Jonathan {
+    width: 8vh;
+    margin-top: 3.5%;
+  }
+  .underCristal3,
+  .underCristal4 {
+    text-align: center;
+    font-size: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+  }
+  .underCristal3 {
+    margin-top: 2%;
+  }
+  .underCristal4 {
+    margin-top: -1%;
+  }
+  .circleDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .circle1 {
+    background-color: black;
+    width: 11px;
+    height: 11px;
+    border-radius: 30px;
+  }
+  .circle2 {
+    margin-left: 8px;
+    background-color: black;
+    width: 11px;
+    height: 11px;
+    border-radius: 30px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .listItem {
+      display: none;
+    }
+    .fixedDiv {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .mainSearchIcon {
+      display: none;
+    }
+    .userAlt2 {
+      display: inline-block;
+    }
+    .userAlt {
+      display: none;
+    }
+    .outlineShopping2 {
+      display: inline-block;
+    }
+    .menuIcon {
+      display: inline-block;
+    }
+    .outlineShopping {
+      display: none;
+    }
+    .divSearch {
+      margin-right: 4%;
+      float: none;
+      width: 30%;
+    }
+    .freeDiv {
+      flex-direction: column;
+      height: 75vh;
+    }
+    .popupTimes {
+      background-color: white;
+      position: absolute;
+      left: 19%;
+      height: 30px;
+      width: 23px;
+      font-size: 20px;
+      padding-top: 1.5%;
+      border-right: 1px solid black;
+      text-align: center;
+    }
+    .popupParent {
+      display: unset;
+      position: fixed;
+      background: #00000050;
+      height: 100vh;
+      overflow: hidden;
+      transition: width 0.2s;
+      z-index: 2;
+    }
+    .popupChild {
+      background: white;
+      height: 100vh;
+      width: 65%;
+      position: absolute;
+      right: 0%;
+      padding: 5%;
+    }
+    .inputParent {
+      border: 1px solid black;
+      height: 5vh;
+      background-color: rgb(230, 230, 230);
+      padding-left: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .popupInput {
+      border: none;
+      outline: none;
+      flex-grow: 10;
+      background-color: transparent;
+      width: 80%;
+    }
+    .popupSearch {
+      float: right;
+      font-size: 20px;
+      margin-right: 2%;
+    }
+    .homeParent {
+      margin-top: 7%;
+    }
+    .homeTextDiv {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionHome {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .accordionShop {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon2 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .shopText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionProduct {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon3 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .productText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionPage {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon4 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .pageText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionBlog {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon5 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .blogText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .aboutParent {
+      margin-top: 5%;
+    }
+    .contactParent {
+      margin-top: 5%;
+    }
+    .languageParent {
+      margin-top: 13%;
+      width: 62%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .language {
+      font-weight: 500;
+    }
+    .languageIcon {
+      margin-top: 25%;
+    }
+    .englishContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .englishContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .moneyParent {
+      margin-top: 2%;
+      width: 52%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .money {
+      font-weight: 500;
+    }
+    .moneyIcon {
+      margin-top: 25%;
+    }
+    .moneyContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .moneyContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .callParent {
+      margin-top: 30%;
+    }
+    .callIcon {
+      font-size: 20px;
+    }
+    .mailIcon {
+      font-size: 20px;
+    }
+    .clockIcon {
+      font-size: 20px;
+    }
+    .divOne {
+      width: 100%;
+    }
+    .seventyDiv {
+      flex-direction: column;
+    }
+    .seventy {
+      width: 100%;
+    }
+    .contactButton {
+      width: 40%;
+      height: 7vh;
+      margin-top: 5%;
+    }
+    .myCustomers,
+    .myCustomers1 {
+      margin-top: 13%;
+    }
+    .beautifulParent {
+      flex-direction: column;
+    }
+    .crystal,
+    .jems,
+    .prety {
+      width: 100%;
+    }
+    .jemsParent,
+    .pretyParent {
+      margin-top: 6%;
+    }
+    .footer {
+      flex-direction: column;
+      height: max-content;
+      padding-left: 5%;
+      padding-bottom: 10%;
+      padding-top: 10%;
+    }
+    .aboutIcon {
+      margin-left: 0%;
+      margin-top: 0%;
+    }
+    .youOne {
+      margin-top: 10%;
+    }
+    .youTwo {
+      margin-top: 8%;
+    }
+    .copyrightDiv {
+      flex-direction: column;
+      padding-left: 5%;
+    }
+    .payment {
+      margin-left: 0%;
+    }
+    .pCopyright {
+      margin-left: 0%;
+    }
+  }
+  @media screen and (min-width: 700px) and (max-width: 1000px) and (min-height: 1001px) and (max-height: 1400px) {
+    .buyNow {
+      font-size: 120%;
+    }
+    .listItem {
+      display: none;
+    }
+    .fixedDiv {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .mainSearchIcon {
+      display: none;
+    }
+    .userAlt2 {
+      display: inline-block;
+    }
+    .userAlt {
+      display: none;
+    }
+    .outlineShopping2 {
+      display: inline-block;
+    }
+    .menuIcon {
+      display: inline-block;
+    }
+    .outlineShopping {
+      display: none;
+    }
+    .divSearch {
+      margin-right: 0%;
+      float: none;
+      width: 30%;
+    }
+    .amber {
+      margin-left: 5%;
+    }
+    .popupTimes {
+      background-color: white;
+      position: absolute;
+      left: 61%;
+      height: 30px;
+      width: 30px;
+      font-size: 20px;
+      padding-top: 1%;
+      border-right: 1px solid black;
+      text-align: center;
+    }
+    .popupParent {
+      display: unset;
+      position: fixed;
+      background: #00000050;
+      height: 100vh;
+      overflow: hidden;
+      transition: width 0.2s;
+      z-index: 2;
+    }
+    .popupChild {
+      background: white;
+      height: 100vh;
+      width: 30%;
+      position: absolute;
+      right: 0%;
+      padding: 3%;
+    }
+    .inputParent {
+      border: 1px solid black;
+      height: 3.5vh;
+      background-color: rgb(230, 230, 230);
+      padding-left: 5%;
+      font-size: 140%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .popupInput {
+      border: none;
+      outline: none;
+      flex-grow: 10;
+      background-color: transparent;
+      width: 80%;
+    }
+    .popupSearch {
+      float: right;
+      font-size: 20px;
+      margin-right: 2%;
+    }
+    .homeParent {
+      margin-top: 7%;
+      font-size: 110%;
+    }
+    .homeTextDiv {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .accordionHome {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .shopParent {
+      font-size: 110%;
+    }
+    .accordionShop {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon2 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .shopParent {
+      font-size: 110%;
+    }
+    .shopText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .productParent {
+      font-size: 110%;
+    }
+    .accordionProduct {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon3 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .productText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .pageParent {
+      font-size: 110%;
+    }
+    .accordionPage {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon4 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .pageText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .blogParent {
+      font-size: 110%;
+    }
+    .accordionBlog {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .accordionIcon5 {
+      margin-top: 7%;
+      transition: 0.5s ease-in-out;
+    }
+    .blogText {
+      margin-top: -7%;
+      margin-left: 4%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    .aboutParent {
+      margin-top: 5%;
+      font-size: 110%;
+    }
+    .contactParent {
+      margin-top: 5%;
+      font-size: 110%;
+    }
+    .languageParent {
+      margin-top: 20%;
+      width: 62%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .language {
+      font-weight: 500;
+    }
+    .languageIcon {
+      margin-top: 25%;
+    }
+    .englishContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .englishContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .moneyParent {
+      margin-top: 2%;
+      width: 52%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .money {
+      font-weight: 500;
+    }
+    .moneyIcon {
+      margin-top: 25%;
+    }
+    .moneyContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .moneyContainer:hover {
+      transition-duration: 0.3s;
+      color: rgb(246, 171, 73);
+    }
+    .callParent {
+      margin-top: 120%;
+    }
+    .callIcon {
+      font-size: 20px;
+    }
+    .mailIcon {
+      font-size: 20px;
+    }
+    .clockIcon {
+      font-size: 20px;
+    }
+    .homeText {
+      margin-top: -3%;
+      margin-left: -1%;
+    }
+    .seventyParent {
+      width: 47.5%;
+      margin-top: 4%;
+    }
+    .seventy {
+      width: 100%;
+    }
+    .seventyText {
+      width: 47.5%;
+    }
+    .contactButton {
+      width: 50%;
+      height: 4vh;
+      font-size: 15px;
+    }
+    .beautifulParent {
+      width: 90%;
+    }
+    .crystalParent,
+    .jemsParent,
+    .pretyParent {
+      width: 30%;
+      height: 30vh;
+    }
+    .crystal,
+    .jems,
+    .prety {
+      width: 100%;
+    }
+    .footer {
+      flex-wrap: wrap;
+      height: max-content;
+      padding-left: 5%;
+      padding-bottom: 10%;
+      padding-top: 10%;
+    }
+    .aboutIcon {
+      margin-left: 0%;
+      margin-top: 0%;
+      width: 47.5%;
+    }
+    .youOne {
+      margin-top: 0%;
+      width: 47.5%;
+      margin-right: 5%;
+    }
+    .youTwo {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+    .newsletter {
+      margin-top: 8%;
+      width: 47.5%;
+    }
+  }
+  @media screen and (width: 540px) and (height: 720px) {
+    .popupTimes {
+      left: 21%;
+    }
+    .crystalParent,
+    .jemsParent,
+    .pretyParent {
+      height: 90vh;
+    }
+  }
+  @media screen and (width: 280px) {
+    .popupTimes {
+      left: 17%;
+    }
+    .amber {
+      height: 50px;
+      width: 150px;
+    }
+  }
+  @media screen and (width: 412px) {
+    .popupTimes {
+      left: 20%;
+    }
+    .contactButton {
+      height: 6vh;
+    }
+    .crystalParent,
+    .jemsParent,
+    .pretyParent {
+      height: fit-content;
+    }
+  }
+}
