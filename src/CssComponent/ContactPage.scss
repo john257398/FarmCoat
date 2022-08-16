@@ -25,6 +25,19 @@
     padding-top: 1%;
     padding-bottom: 1%;
   }
+  .divSearch {
+    width: 9%;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 6%;
+    box-sizing: border-box;
+    height: 50px;
+    padding-top: 12.5px;
+  }
   .amber {
     margin-left: 3%;
     height: fit-content;
